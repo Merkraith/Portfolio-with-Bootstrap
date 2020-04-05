@@ -5,45 +5,51 @@
   <meta charset="UTF-8" />
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="./styles.css">
   <title>About Me</title>
 </head>
 
 <body>
 
-  <nav class="nav justify-content-center" style="background-color: whitesmoke">
-    <a class="navbar-brand">Mark Heil</a>
-    <ul class="nav justify-content-center">
-      <li class="nav-item">
-        <a class="nav-link" href="./index.html">About Me</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="./portfolio.html">Portfolio</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="./contact.html">Contact Me</a>
-      </li>
-    </ul>
-  </nav>
+  <nav class="nav justify-content-center" style="background-color: black;">
+    <div class="navbar navbar-expand-lg">
+    <a class="navbar-brand" href="./index.html">Mark Heil</a>
+        <ul class="nav navbar-nav navbar-center">
+            <li class="nav-item">
+                <a class="nav-link" href="./index.html">About Me</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./contact.html">Contact Me</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+  <br>
 
   <main>
     <div class="row justify-content-center">
       <div class="card mb-3" style="max-width: 540px;">
-        <div class="card" style="width: 18rem;">
-          <img src="images/mark.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">About Me</h5>
-            <p class="card-text">Mark is an up and coming Web Developer with a Printing and Publishing background.
-              Outside of his work, he enjoys spending time with his wife and kids, watching movies, playing video games
-              and cooking.</p>
-            <a href="https://linkedin.com/in/mark-heil-89b82910b/" class="card-link">LinkedIn</a>
-            <a href="https://github.com/Merkraith" class="card-link">GitHub</a>
-
+        <div class="row no-gutters">
+          <div class="col-md-4">
+            <img src="./images/mark.jpg" class="card-img" alt="mark.jpg">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">About Me</h5>
+              <p class="card-text">
+                Hello, I am Mark Heil, an up and coming Web Developer with a Printing and Publishing background.
+                Originally from Wisconsin, I moved out west here to Seattle four years ago to seek adventure and new
+                opportunities. Outside of my work I am a family man, love to travel, enjoy watching movies, 
+                playing video games and cooking.</p>
+            </div>
           </div>
         </div>
       </div>
     </div>
-
   </main>
 </body>
 
