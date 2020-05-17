@@ -3,52 +3,52 @@
 
 <head>
   <meta charset="UTF-8" />
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <!-- Style link for Materiialize CSS Icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="./style.css">
   <title>Contact Me</title>
 </head>
 
 <body>
-
-  <nav class="nav justify-content-center" style="background-color: black;">
-    <div class="navbar navbar-expand-lg">
-      <a class="navbar-brand" href="./index.html">Mark Heil</a>
-        <ul class="nav navbar-nav navbar-center">
-            <li class="nav-item">
-                <a class="nav-link" href="./index.html">About Me</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="./portfolio.html">Portfolio</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="./contact.html">Contact Me</a>
-            </li>
-        </ul>
+  <nav>
+    <div class="nav-wrapper">
+      <ul class="hide-on-med-and-down center">
+        <li><a href="./index.html" class="waves-effect waves-purple btn">About<i
+              class="material-icons right">face</i></a></li>
+        <li><a href="./portfolio.html" class="waves-effect waves-purple btn">Portfolio <i
+              class="material-icons right">folder</i></a></li>
+        <li><a href="./contact.html" class="waves-effect waves-purple btn">Contact<i
+              class="material-icons right">call</i></a></li>
+      </ul>
     </div>
   </nav>
+  <div class="container">
 
-  <br>
-
-  <form>
-    <div class="row justify-content-center">
-      <div class="col-md-4 mb-3" style="max-width: 540px;">
-        <div class="form-group">
-          <label for="exampleFormControlInput1">Name</label>
-          <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Name">
-        </div>
-        <div class="form-group">
-          <label for="exampleFormControlInput1">Email address</label>
-          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-        </div>
-        <div class="form-group">
-          <label for="exampleFormControlTextarea1">Message</label>
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea>
-          <br>
-          <a href="#" class="btn btn-primary">Send</a>
+    <br>
+    <div class="col mb-4">
+      <div class="card">
+        <img src="./images/linkedin.png" class="card-img-top" alt="linkedin">
+        <div class="card-body">
+          <a href="https://www.linkedin.com/in/mark-heil-89b82910b/" class="card-link">LinkedIn</a>
         </div>
       </div>
     </div>
-  </form>
+
+    <div class="col mb-4">
+      <div class="card">
+        <img src="./images/github.jpg" class="card-img-top" alt="github">
+        <div class="card-body">
+          <a href="https://github.com/Merkraith" class="card-link">GitHub</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
 </body>
+
 </html>

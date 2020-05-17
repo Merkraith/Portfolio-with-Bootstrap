@@ -1,23 +1,14 @@
-$grid-breakpoints: (
-  xs: 0,
-  sm: 480px,
-  md: 768px,
-  lg: 1024px
-);
 
-$container-max-widths: (
-  sm: 420px,
-  md: 720px,
-  lg: 960px
-);
-
-.card-body {
+nav {
   
-text-align: center;
+  background-color: darkblue;
 }
 
-.row-no-gutters {
-
-  padding-top: 25%;
-
+.btn {
+  background-color: indigo;
 }
+
+.btn:hover {
+  background-color: purple;
+}
+
