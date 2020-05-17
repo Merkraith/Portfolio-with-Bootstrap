@@ -12,10 +12,21 @@
 }
 
 .nav-link {
-  background-color: seagreen;
+  background-color: darkblue;
   color: white;
 }
 
-.nav-link:active {
-  background-color: forestgreen;
+.nav-link:hover {
+  background-color: indigo;
+  color: white;
+}
+
+
+img {
+  max-width: 200px;
+  max-height: 200px;
+}
+
+.card {
+  align-items: center;
 }
