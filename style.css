@@ -1,14 +1,21 @@
 
-nav {
-  
-  background-color: darkblue;
+
+.container {
+  margin-top: 25px;
+  box-shadow: black;
+  background-color: lightsteelblue;
 }
 
-.btn {
-  background-color: indigo;
+.nav-link {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
-.btn:hover {
-  background-color: purple;
+.nav-link {
+  background-color: seagreen;
+  color: white;
 }
 
+.nav-link:active {
+  background-color: forestgreen;
+}
